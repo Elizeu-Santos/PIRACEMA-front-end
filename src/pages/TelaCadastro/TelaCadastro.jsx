@@ -26,7 +26,7 @@ return(
             <Tab label="Peixes Cadastrados"/>
             <Tab label="Registro Passagens"/>
             <Tab label="Status das Antenas"/>
-            <img src='./Logo.png'></img>
+            <img src='./images/Logo.png'></img>
             
             
           </Tabs>

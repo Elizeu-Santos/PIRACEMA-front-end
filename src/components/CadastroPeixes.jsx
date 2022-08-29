@@ -53,7 +53,7 @@ function CadastroPeixes(){
 
           <TextField
             name='standardLength'
-            label="Comprimento Padrão"
+            label="Comprimento padrão"
             variant='outlined'
             color='primary'
             style={{width:'100%'}}
@@ -63,7 +63,7 @@ function CadastroPeixes(){
 
           <TextField
             name='captureSite'
-            label="Local de Captura"
+            label="Local de captura"
             variant='outlined'
             color='primary'
             style={{width:'100%'}}
@@ -74,10 +74,11 @@ function CadastroPeixes(){
         <LocalizationProvider dateAdapter={AdapterDateFns}>
         <DateTimePicker
           renderInput={(props) => <TextField {...props} />}
-          label="DateTimePicker"
+          label="Data/Hora"
           name="releaseDate"
           value={value}
           style={{width:'100%'}}
+          required
           onChange={(newValue) => {
             setValue(newValue);
           }}
@@ -86,7 +87,7 @@ function CadastroPeixes(){
 
           <TextField
             name='dnaSample'
-            label="Código da Amostra de DNA"
+            label="Código da amostra de DNA"
             variant='outlined'
             color='primary'
             style={{width:'100%'}}
@@ -96,7 +97,7 @@ function CadastroPeixes(){
 
           <TextField
             name='commonName'
-            label="Nome Popular"
+            label="Nome popular"
             variant='outlined'
             color='primary'
             style={{width:'100%'}}
@@ -113,7 +114,7 @@ function CadastroPeixes(){
           >
           <TextField
             name='scientificName'
-            label="Nome Científico da Espécie"
+            label="Nome científico da espécie"
             variant='outlined'
             color='primary'
             style={{width:'100%'}}
@@ -133,7 +134,7 @@ function CadastroPeixes(){
 
           <TextField
             name='releaseWeight'
-            label="Peso na Soltura"
+            label="Peso na soltura"
             variant='outlined'
             color='primary'
             style={{width:'100%'}}
@@ -207,7 +208,7 @@ function CadastroPeixes(){
         />
 
         <TextField
-          label="Local da Soltura"
+          label="Local da soltura"
           variant='outlined'
           color='primary'
           style={{width:'100%'}}
@@ -225,7 +226,7 @@ function CadastroPeixes(){
 
       <Grid item xs={5} sx={{ '& .MuiTextField-root': { m: 1, width: '25ch' }, }} autoComplete="off" >
         <TextField
-          label="Local da Captura"
+          label="Local da captura"
           variant='outlined'
           color='primary'
           style={{width:'100%'}}
@@ -233,7 +234,7 @@ function CadastroPeixes(){
         />
 
         <TextField
-          label="Data de Captura"
+          label="Data de captura"
           variant='outlined'
           color='primary'
           style={{width:'100%'}}
@@ -241,7 +242,7 @@ function CadastroPeixes(){
         />
 
         <TextField
-          label="Código da Amostra de DNA"
+          label="Código da amostra de DNA"
           variant='outlined'
           color='primary'
           style={{width:'100%'}}

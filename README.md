@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+## Plataforma Web de monitoramento de peixes no canal Piracema
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Sobre
+A piracema é o período em que determinadas espécies de peixes enfrentam grandes jornadas rio acima a fim de garantir um local adequado para sua desova e alimentação. Durante a piracema, os peixes nadam contra a correnteza em cardumes, vencendo obstáculos naturais, como as cachoeiras, e também aqueles criados pelo homem, como barragens hidrelétricas. Algumas espécies nadam mais de dois mil quilômetros até alcançarem as nascentes, sendo uma viagem exaustiva, mas essencial para a reprodução.
 
-## Available Scripts
+Para realizar o monitoramento dos peixes no canal deste projeto, existem 5 antenas durante todo o percurso para que a antena possa registrar a passagem de um determinado peixe, é realizado uma captura do mesmo e inserido um chip chamado PitTag.
 
-In the project directory, you can run:
+### Objetivo
 
-### `npm start`
+- Contruir uma plataforma web para que o cliente possa gerenciar informações dos peixes e antenas, bem como os registros de passagens dos peixes dentro do canal, onde o sistema apresente formas de busca e visualização das informações dos peixes que passam pelo canal, bem como uma estimativa diária e mensal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tecnologias
 
-### `npm test`
+- [Spring Boot](https://spring.io/projects/spring-boot) - Framework de Desenvolvimento para a Linguagem Java.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Lombok](https://projectlombok.org/) - Biblioteca Java focada em produtividade e redução de código boilerplate que, por meio de anotações adicionadas ao nosso código, ensinamos o compilador (maven ou gradle) durante o processo de compilação a criar código Java.
 
-### `npm run build`
+- [PostgreSQL](https://www.postgresql.org/download/) - Banco de dados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [JPA](https://hibernate.org/orm/) - Especificação do Java que dita como os Frameworks ORM devem ser implementados.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🤝 Equipe
+- [Elizeu da Silva Santos](https://www.linkedin.com/in/elizeusantoss/)
+- [Guilherme Cavalcanti Lopes](https://www.linkedin.com/in/guilherme-cavalcanti-lopes-037830214/)
+- Gustavo Carvajal Yantaní
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Repositório do Back-end
+- [Click aqui](https://github.com/Elizeu-Santos/PTI-Piracema-back-end)

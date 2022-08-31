@@ -1,4 +1,4 @@
-## Plataforma Web de monitoramento de peixes
+## Plataforma web de monitoramento de peixes
 
 <h1 align="center">
   <img alt="image" title="Readme" src="./images/Front-end.PNG.png"/>

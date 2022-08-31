@@ -12,13 +12,14 @@ Para realizar o monitoramento dos peixes no canal deste projeto, existem 5 anten
 
 ### Tecnologias
 
-- [Spring Boot](https://spring.io/projects/spring-boot) - Framework de Desenvolvimento para a Linguagem Java.
+- [React](https://pt-br.reactjs.org/) - O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
 
-- [Lombok](https://projectlombok.org/) - Biblioteca Java focada em produtividade e redução de código boilerplate que, por meio de anotações adicionadas ao nosso código, ensinamos o compilador (maven ou gradle) durante o processo de compilação a criar código Java.
+- [MUI](https://mui.com/pt/) - Sistema para gerar interface gráfica de usuário.
 
-- [PostgreSQL](https://www.postgresql.org/download/) - Banco de dados.
+- [Axios](https://axios-http.com/ptbr/) - Axios é um cliente HTTP simples baseado em promessas para o navegador e para o node.js.
 
-- [JPA](https://hibernate.org/orm/) - Especificação do Java que dita como os Frameworks ORM devem ser implementados.
+- [Json Server](https://www.npmjs.com/package/json-server) - JSON server é um aplicativo em NodeJS que serve como uma ferramenta de apoio para o desenvolvimento de aplicações.
+
 
 ### 🤝 Equipe
 - [Elizeu da Silva Santos](https://www.linkedin.com/in/elizeusantoss/)
